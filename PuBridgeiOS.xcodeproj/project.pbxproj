@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE9969EB2DAE9E0D0051011A /* PopupBridge in Frameworks */ = {isa = PBXBuildFile; productRef = FE9969EA2DAE9E0D0051011A /* PopupBridge */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE9969CD2DAE9DAF0051011A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9969B72DAE9DAE0051011A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9969BE2DAE9DAE0051011A;
+			remoteInfo = PuBridgeiOS;
+		};
+		FE9969D72DAE9DAF0051011A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9969B72DAE9DAE0051011A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9969BE2DAE9DAE0051011A;
+			remoteInfo = PuBridgeiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE9969BF2DAE9DAE0051011A /* PuBridgeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuBridgeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9969CC2DAE9DAF0051011A /* PuBridgeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuBridgeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9969D62DAE9DAF0051011A /* PuBridgeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuBridgeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FE9969C12DAE9DAE0051011A /* PuBridgeiOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PuBridgeiOS;
+			sourceTree = "<group>";
+		};
+		FE9969CF2DAE9DAF0051011A /* PuBridgeiOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PuBridgeiOSTests;
+			sourceTree = "<group>";
+		};
+		FE9969D92DAE9DAF0051011A /* PuBridgeiOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PuBridgeiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE9969BC2DAE9DAE0051011A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9969EB2DAE9E0D0051011A /* PopupBridge in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9969C92DAE9DAF0051011A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9969D32DAE9DAF0051011A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE9969B62DAE9DAE0051011A = {
+			isa = PBXGroup;
+			children = (
+				FE9969C12DAE9DAE0051011A /* PuBridgeiOS */,
+				FE9969CF2DAE9DAF0051011A /* PuBridgeiOSTests */,
+				FE9969D92DAE9DAF0051011A /* PuBridgeiOSUITests */,
+				FE9969C02DAE9DAE0051011A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9969C02DAE9DAE0051011A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9969BF2DAE9DAE0051011A /* PuBridgeiOS.app */,
+				FE9969CC2DAE9DAF0051011A /* PuBridgeiOSTests.xctest */,
+				FE9969D62DAE9DAF0051011A /* PuBridgeiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE9969BE2DAE9DAE0051011A /* PuBridgeiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9969E02DAE9DAF0051011A /* Build configuration list for PBXNativeTarget "PuBridgeiOS" */;
+			buildPhases = (
+				FE9969BB2DAE9DAE0051011A /* Sources */,
+				FE9969BC2DAE9DAE0051011A /* Frameworks */,
+				FE9969BD2DAE9DAE0051011A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FE9969C12DAE9DAE0051011A /* PuBridgeiOS */,
+			);
+			name = PuBridgeiOS;
+			packageProductDependencies = (
+				FE9969EA2DAE9E0D0051011A /* PopupBridge */,
+			);
+			productName = PuBridgeiOS;
+			productReference = FE9969BF2DAE9DAE0051011A /* PuBridgeiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE9969CB2DAE9DAF0051011A /* PuBridgeiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9969E32DAE9DAF0051011A /* Build configuration list for PBXNativeTarget "PuBridgeiOSTests" */;
+			buildPhases = (
+				FE9969C82DAE9DAF0051011A /* Sources */,
+				FE9969C92DAE9DAF0051011A /* Frameworks */,
+				FE9969CA2DAE9DAF0051011A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9969CE2DAE9DAF0051011A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FE9969CF2DAE9DAF0051011A /* PuBridgeiOSTests */,
+			);
+			name = PuBridgeiOSTests;
+			packageProductDependencies = (
+			);
+			productName = PuBridgeiOSTests;
+			productReference = FE9969CC2DAE9DAF0051011A /* PuBridgeiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE9969D52DAE9DAF0051011A /* PuBridgeiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9969E62DAE9DAF0051011A /* Build configuration list for PBXNativeTarget "PuBridgeiOSUITests" */;
+			buildPhases = (
+				FE9969D22DAE9DAF0051011A /* Sources */,
+				FE9969D32DAE9DAF0051011A /* Frameworks */,
+				FE9969D42DAE9DAF0051011A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9969D82DAE9DAF0051011A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FE9969D92DAE9DAF0051011A /* PuBridgeiOSUITests */,
+			);
+			name = PuBridgeiOSUITests;
+			packageProductDependencies = (
+			);
+			productName = PuBridgeiOSUITests;
+			productReference = FE9969D62DAE9DAF0051011A /* PuBridgeiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9969B72DAE9DAE0051011A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FE9969BE2DAE9DAE0051011A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FE9969CB2DAE9DAF0051011A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FE9969BE2DAE9DAE0051011A;
+					};
+					FE9969D52DAE9DAF0051011A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FE9969BE2DAE9DAE0051011A;
+					};
+				};
+			};
+			buildConfigurationList = FE9969BA2DAE9DAE0051011A /* Build configuration list for PBXProject "PuBridgeiOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE9969B62DAE9DAE0051011A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FE9969E92DAE9E0D0051011A /* XCRemoteSwiftPackageReference "popup-bridge-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FE9969C02DAE9DAE0051011A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE9969BE2DAE9DAE0051011A /* PuBridgeiOS */,
+				FE9969CB2DAE9DAF0051011A /* PuBridgeiOSTests */,
+				FE9969D52DAE9DAF0051011A /* PuBridgeiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE9969BD2DAE9DAE0051011A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9969CA2DAE9DAF0051011A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9969D42DAE9DAF0051011A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE9969BB2DAE9DAE0051011A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9969C82DAE9DAF0051011A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9969D22DAE9DAF0051011A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE9969CE2DAE9DAF0051011A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9969BE2DAE9DAE0051011A /* PuBridgeiOS */;
+			targetProxy = FE9969CD2DAE9DAF0051011A /* PBXContainerItemProxy */;
+		};
+		FE9969D82DAE9DAF0051011A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9969BE2DAE9DAE0051011A /* PuBridgeiOS */;
+			targetProxy = FE9969D72DAE9DAF0051011A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE9969DE2DAE9DAF0051011A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9A3TTZETCF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE9969DF2DAE9DAF0051011A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9A3TTZETCF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE9969E12DAE9DAF0051011A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3TTZETCF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugomax.PuBridgeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE9969E22DAE9DAF0051011A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3TTZETCF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugomax.PuBridgeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE9969E42DAE9DAF0051011A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3TTZETCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugomax.PuBridgeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuBridgeiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuBridgeiOS";
+			};
+			name = Debug;
+		};
+		FE9969E52DAE9DAF0051011A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3TTZETCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugomax.PuBridgeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuBridgeiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuBridgeiOS";
+			};
+			name = Release;
+		};
+		FE9969E72DAE9DAF0051011A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3TTZETCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugomax.PuBridgeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PuBridgeiOS;
+			};
+			name = Debug;
+		};
+		FE9969E82DAE9DAF0051011A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3TTZETCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugomax.PuBridgeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PuBridgeiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE9969BA2DAE9DAE0051011A /* Build configuration list for PBXProject "PuBridgeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9969DE2DAE9DAF0051011A /* Debug */,
+				FE9969DF2DAE9DAF0051011A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9969E02DAE9DAF0051011A /* Build configuration list for PBXNativeTarget "PuBridgeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9969E12DAE9DAF0051011A /* Debug */,
+				FE9969E22DAE9DAF0051011A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9969E32DAE9DAF0051011A /* Build configuration list for PBXNativeTarget "PuBridgeiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9969E42DAE9DAF0051011A /* Debug */,
+				FE9969E52DAE9DAF0051011A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9969E62DAE9DAF0051011A /* Build configuration list for PBXNativeTarget "PuBridgeiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9969E72DAE9DAF0051011A /* Debug */,
+				FE9969E82DAE9DAF0051011A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE9969E92DAE9E0D0051011A /* XCRemoteSwiftPackageReference "popup-bridge-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/braintree/popup-bridge-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE9969EA2DAE9E0D0051011A /* PopupBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE9969E92DAE9E0D0051011A /* XCRemoteSwiftPackageReference "popup-bridge-ios" */;
+			productName = PopupBridge;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FE9969B72DAE9DAE0051011A /* Project object */;
+}
